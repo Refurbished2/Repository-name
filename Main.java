@@ -17,9 +17,9 @@ public class Main {
     }
 
 
-	public static Pixel pixel = new Pixel();
+
+
     public static void main(String[] args){
-		pixel.repaint();
 		while(true){
 			//System.out.println("\033[32m"+String.join("and",args));
 			System.out.print(randomize101());
@@ -31,6 +31,7 @@ public class Main {
 			System.out.print(randomize101());
 			System.out.print(randomize101());
 			System.out.print(" ");
+			sleep(1);
 			//System.out.println("superguy");
 			
 			// sleep(500);
