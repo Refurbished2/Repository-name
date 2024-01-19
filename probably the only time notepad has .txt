@@ -1,0 +1,67 @@
+probably the only time notepad has ever been used as notes
+
+
+pwd - Print Working Directory
+
+ls - List
+
+c(w)d - Change Working Directory
+if u have dementia it's actually (cd)
+
+Paths --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+genral --
+
+
+pwd takes no permaiter
+\\ get crapped on //
+
+ls (can take peramiter) _/\'-'/\_
+
+cd (must take peramiter) grammerly halp
+
+Command Notation --
+
+pwd (thats it lol)
+
+ls [Path]
+(bruh the font just changed :skull:)
+cd <Path>
+
+(when command has an optional peramiter, it means the command is actually two commands bundled together, wether you give it a peramiter or not, specifies which of the two commands you will execute.)
+
+
+
+(optional peramiter = two commands all in one command, two commands execute different things. [{(LS WITHOUT A PATH IS LISTING ALL FILES)}])
+
+
+
+
