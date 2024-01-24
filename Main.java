@@ -22,6 +22,7 @@ public class Main {
 
     public static void main(String[] args){
 		while(true){
+			//pixel.paintComponent(null);
 			//System.out.println("\033[32m"+String.join("and",args));
 			System.out.print(randomize101());
 			System.out.print(randomize101());
