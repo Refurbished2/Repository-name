@@ -1,2 +1,3 @@
-no copy me work pls very meen :(
-this file is a readme if u didnt know
+// no copy me work pls very meen :(
+// this file is a readme if u didnt know
+death is invetible. running from it is a form of fear. people die, we must accept that, for if we dont, our lives would be a small timestamp in the universe. Everything small you have done;, don't matter no matter the quantity. make you life big, go out with a bang, or fizz out like the most of us. making some massive time machine to change the tiny things you did in the past wont matter. the detentions you got in middleschool? they are all small inconveinces to the past you. this is the future. focus on now, not before, not later. we never know when we may die, so always do the work now, never later. (unless it's homework.)
