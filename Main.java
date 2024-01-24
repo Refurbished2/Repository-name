@@ -1,6 +1,7 @@
 import java.util.Random;
 
 public class Main {
+	public static Pixel pixel = new Pixel();
 	public static Random random = new Random();
 //funtion task is randomize strings of 101010s
 	public static String randomize101(){
