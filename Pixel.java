@@ -16,10 +16,10 @@ public class Pixel extends JPanel {
 	//make tab that duplicates when you press a button. the button will say (dupe) closable just do Alt F4 also no x button because funni
 	public Pixel(){
 			SwingUtilities.invokeLater(() -> {
-				this.setBackground(Color.RED);
+				this.setBackground(Color.BLACK);
 				var frame = new JFrame("ransomenotware");
 				frame.setUndecorated(true);
-				frame.setSize(750, 600);
+				frame.setSize(1920, 1080);
 				frame.getContentPane().add(this, BorderLayout.CENTER);
 				frame.setVisible(true);
 			}
@@ -32,8 +32,8 @@ public class Pixel extends JPanel {
 public static Font font;
 public void paintComponent(Graphics g){
 	super.paintComponent(g);
-	g.setColor(new Color(0,0,255));
-	g.fillOval(200, 200, 200, 250);
+	g.setColor(new Color(255,0,255));
+	g.fillOval(200, 500, 200, 250);
 	g.setColor(Color.BLACK);
 	g.drawString("add thyme", 200,200);
 
@@ -41,10 +41,6 @@ public void paintComponent(Graphics g){
 	
 
 }
-
-
-
-
 
 
 
