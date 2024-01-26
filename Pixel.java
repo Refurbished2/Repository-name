@@ -12,7 +12,7 @@ import java.awt.image.BufferedImage;
 
 
 
-public class Pixel extends JPanel {
+public class Pixel extends JPanel implements MouseListener {
 	//make tab that duplicates when you press a button. the button will say (dupe) closable just do Alt F4 also no x button because funni
 	public Pixel(){
 			SwingUtilities.invokeLater(() -> {
@@ -22,13 +22,15 @@ public class Pixel extends JPanel {
 				frame.setSize(1920, 1080);
 				frame.getContentPane().add(this, BorderLayout.CENTER);
 				frame.setVisible(true);
-			}
-			);
-	
-
-
-
+				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+				this.addMouseListener(this);
+			});
 	}
+
+	public void mouseClicked(MouseEvent e) {
+		System.exit(0);
+	}
+
 public static Font font;
 public void paintComponent(Graphics g){
 	super.paintComponent(g);
@@ -40,6 +42,30 @@ public void paintComponent(Graphics g){
 
 	
 
+}
+
+@Override
+public void mousePressed(MouseEvent e) {
+	// TODO Auto-generated method stub
+	throw new UnsupportedOperationException("Unimplemented method 'mousePressed'");
+}
+
+@Override
+public void mouseReleased(MouseEvent e) {
+	// TODO Auto-generated method stub
+	throw new UnsupportedOperationException("Unimplemented method 'mouseReleased'");
+}
+
+@Override
+public void mouseEntered(MouseEvent e) {
+	// TODO Auto-generated method stub
+	throw new UnsupportedOperationException("Unimplemented method 'mouseEntered'");
+}
+
+@Override
+public void mouseExited(MouseEvent e) {
+	// TODO Auto-generated method stub
+	throw new UnsupportedOperationException("Unimplemented method 'mouseExited'");
 }
 
 
