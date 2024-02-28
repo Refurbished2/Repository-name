@@ -27,9 +27,6 @@ public class Pixel extends JPanel implements MouseListener {
 			});
 	}
 
-	public void mouseClicked(MouseEvent e) {
-		System.exit(0);
-	}
 
 public static Font font;
 public void paintComponent(Graphics g){
@@ -42,6 +39,11 @@ public void paintComponent(Graphics g){
 
 	
 
+}
+
+@Override
+public void mouseClicked(MouseEvent e) {
+	System.exit(0);
 }
 
 @Override
